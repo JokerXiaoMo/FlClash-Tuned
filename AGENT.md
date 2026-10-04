@@ -9,7 +9,7 @@
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 统一化矢量图标 | `Icons/svg/<Name>.svg`（共 40 枚「簪花印」）                                                                                                                        |
 | 命名           | PascalCase、无下划线/连字符；与脚本/配置引用一一对应                                                                                                      |
-| 图标引用格式   | `https://fastly.jsdelivr.net/gh/JokerXiaoMo/FlClash-Tuned@main/Icons/svg/<Name>.svg`；脚本里前缀为 `iconBaseUrl`；YAML 无变量，写全量                     |
+| 图标引用格式   | `https://fastly.jsdelivr.net/gh/JokerXiaoMo/FlClash-Tuned@icons-v1/Icons/svg/<Name>.svg`；脚本里前缀为 `iconBaseUrl`；YAML 无变量，写全量                     |
 | 规则集引用     | 脚本里前缀为 `ruleSetBaseUrl` → `https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/`；Emby 专属规则（emos/emby）为第三方仓库，仍写全量 URL |
 | 回归测试       | `node Test/run-tests.js`（当前 182 项；改脚本必跑；含 ES2020 语法检查与 QuickJS 实跑 main()）                                                             |
 

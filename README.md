@@ -85,7 +85,7 @@ FlClash 导入方式：首页 → 配置 → 添加配置 → 从 URL 导入（�
 40 枚「簪花印」SVG（策略组 + 地区 + 工具类 + 2 枚备用），桃粉底白符，统一规范化至 1024×1024 画布，jsdelivr 全局 CDN 直链：
 
 ```text
-https://fastly.jsdelivr.net/gh/JokerXiaoMo/FlClash-Tuned@main/Icons/svg/<Name>.svg
+https://fastly.jsdelivr.net/gh/JokerXiaoMo/FlClash-Tuned@icons-v1/Icons/svg/<Name>.svg
 ```
 
 - 覆写脚本自动为所有策略组配置图标，FlClash 中直接可见

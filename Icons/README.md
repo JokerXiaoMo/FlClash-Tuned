@@ -2,7 +2,7 @@
 
 共 **40** 枚「簪花印」SVG，桃粉底白符，统一规范化至 `1024 × 1024` 画布（规范详见根目录 [AGENT.md](../AGENT.md)）。
 
-- 引用地址：`https://fastly.jsdelivr.net/gh/JokerXiaoMo/FlClash-Tuned@main/Icons/svg/<Name>.svg`
+- 引用地址：`https://fastly.jsdelivr.net/gh/JokerXiaoMo/FlClash-Tuned@icons-v1/Icons/svg/<Name>.svg`
 - FlClash 中可直接用于策略组 `icon` 字段，或在「覆写 → 自定义 → 图标」中引用。
 - 图标体系与姐妹项目 [taobai-zanhua](https://github.com/JokerXiaoMo/taobai-zanhua)（MIT）同源；本项目仅做画布归一化（48 → 1024）与命名映射，未改动图形本体。
 

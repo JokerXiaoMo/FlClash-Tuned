@@ -1,3 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
-  <g transform="translate(87.03 0.00) scale(22.7556)"><g xmlns="http://www.w3.org/2000/svg"><path fill="#002991" d="M38.914 13.35c0 5.574-5.144 12.15-12.927 12.15H18.49l-.368 2.322L16.373 39H7.056l5.605-36h15.095c5.083 0 9.082 2.833 10.555 6.77a9.687 9.687 0 0 1 .603 3.58z"></path><path fill="#60CDFF" d="M44.284 23.7A12.894 12.894 0 0 1 31.53 34.5h-5.206L24.157 48H14.89l1.483-9 1.75-11.178.367-2.322h7.497c7.773 0 12.927-6.576 12.927-12.15 3.825 1.974 6.055 5.963 5.37 10.35z"></path><path fill="#008CFF" d="M38.914 13.35C37.31 12.511 35.365 12 33.248 12h-12.64L18.49 25.5h7.497c7.773 0 12.927-6.576 12.927-12.15z"></path></g></g>
+  <g transform="translate(0.00 0.00) scale(21.3333)">
+<defs>
+    <linearGradient id="zbzh" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0A8C0"/>
+      <stop offset="1" stop-color="#E58BA8"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="46" height="46" rx="13" fill="url(#zbzh)"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round">
+    <path d="M23 15V38" opacity="0.55"/>
+    <path d="M23 15H29a5.5 5.5 0 0 1 0 11H23" opacity="0.55"/>
+    <path d="M17 10V35"/>
+    <path d="M17 10H23.5a6 6 0 0 1 0 12H17"/>
+  </g>
+  </g>
 </svg>

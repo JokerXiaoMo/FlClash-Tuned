@@ -7,7 +7,7 @@
 
 | 项             | 位置 / 规则                                                                                                                                               |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 统一化矢量图标 | `Icons/svg/<Name>.svg`（共 38 枚）                                                                                                                        |
+| 统一化矢量图标 | `Icons/svg/<Name>.svg`（共 40 枚「簪花印」）                                                                                                                        |
 | 命名           | PascalCase、无下划线/连字符；与脚本/配置引用一一对应                                                                                                      |
 | 图标引用格式   | `https://fastly.jsdelivr.net/gh/JokerXiaoMo/FlClash-Tuned@main/Icons/svg/<Name>.svg`；脚本里前缀为 `iconBaseUrl`；YAML 无变量，写全量                     |
 | 规则集引用     | 脚本里前缀为 `ruleSetBaseUrl` → `https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/`；Emby 专属规则（emos/emby）为第三方仓库，仍写全量 URL |
@@ -27,12 +27,14 @@
 
 - `s = 1024 / max(W, H)`，`tx = (1024 - W*s) / 2`，`ty = (1024 - H*s) / 2`（W/H 为原 viewBox 尺寸）。
 - 效果：内容最长边正好 1024，另一方向等比居中留白（非 1:1 图标不拉伸铺满）。
-- 底座（thesvg.org）不改形状，只做画布归一化；原创图标直接在 1024 画布上绘制。
+- 「簪花印」图标不改图形本体，只做画布归一化（源 48 → 1024）；补刻图标直接在 1024 等价比例上绘制。
 
-### 1.2 二创与版权
+### 1.2 来源与版权
 
-- 底座来自 thesvg.org，仅选用 CC0-1.0 / MIT / Apache-2.0 许可的图标；禁止使用 CC-BY-ND（不可演绎）类底座。
-- 每枚图标的来源与许可证登记在 `Icons/README.md`，新增/替换图标必须同步更新该表。
+- 图标体系源自姐妹项目 [taobai-zanhua](https://github.com/JokerXiaoMo/taobai-zanhua)（MIT），风格为「桃粉渐变底 + 白色线条符」。
+- 本项目仅做画布归一化（源 `48×48` viewBox → 本仓库 `1024×1024` 骨架）与文件名映射，**不得改动图形本体**。
+- 源体系未覆盖的图标（当前为 Patreon）按同风格补刻，并在 `Icons/README.md` 中登记。
+- 新增/替换图标必须同步更新 `Icons/README.md` 的映射表。
 
 ## 2. FlClash 适配原则（重要）
 

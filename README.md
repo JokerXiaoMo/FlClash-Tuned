@@ -2,139 +2,139 @@
 
 <div align="center">
 
-**涓?[FlClash](https://github.com/chen08209/FlClash) 瀹屽叏娣卞害閫傞厤鐨?mihomo 瑕嗗啓鐗硅皟濂椾欢**
+**为 [FlClash](https://github.com/chen08209/FlClash) 完全深度适配的 mihomo 覆写特调套件**
 
-鍩轰簬 [AIsouler/MyClash](https://github.com/AIsouler/MyClash) 鐨勭壒璋冩€濊矾閲嶆瀯锛氬墧闄?Bettbox 鍥惧舰鍖栭€傞厤锛屽叏闈㈣浆鍚?FlClash 鐢熸€?
+基于 [AIsouler/MyClash](https://github.com/AIsouler/MyClash) 的特调思路重构：剔除 Bettbox 图形化适配，全面转向 FlClash 生态
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Tests](https://img.shields.io/badge/Tests-182%20passed-brightgreen)](Test)
-[![Icons](https://img.shields.io/badge/Icons-38%20SVG-9cf)](Icons)
+[![Icons](https://img.shields.io/badge/Icons-%E7%B0%AA%E8%8A%B1%E5%8D%B0%2040%20SVG-E58BA8)](Icons)
 
 </div>
 
-## 杩欐槸浠€涔?
+## 这是什么
 
-MyClash 鏄潰鍚?Bettbox 娣卞害閫傞厤鐨?mihomo 瑕嗗啓鑴氭湰涓庨厤缃枃浠堕」鐩€傛湰椤圭洰缁ф壙鍏跺叏閮ㄧ壒璋冨姛鍔涳紝骞跺仛浠ヤ笅娣卞害鏀归€狅細
+MyClash 是面向 Bettbox 深度适配的 mihomo 覆写脚本与配置文件项目。本项目继承其全部特调功力，并做以下深度改造：
 
-| 缁村害            | MyClash锛堝師鐗堬級      | FlClash-Tuned锛堟湰椤圭洰锛?                                  |
-| --------------- | -------------------- | --------------------------------------------------------- |
-| 鐩爣瀹㈡埛绔?     | Bettbox              | **FlClash**                                               |
-| 鍥惧舰鍖栭€傞厤      | Bettbox 鍙傛暟妗ユ帴     | 绉婚櫎锛涢€傞厤 FlClash 瑕嗗啓浣撶郴                               |
-| 瑙勫垯闆嗘潵婧?     | appshubcc/bett-rules | **MetaCubeX meta-rules-dat**锛團lClash 瀹樻柟鍚屾簮锛?         |
-| 绔彛/TUN/鎺у埗鍣?| 鑴氭湰鍐呭啓姝?          | 浜ょ敱 FlClash App 璁剧疆绠＄悊锛屼簰涓嶅啿绐?                      |
-| 鍥炬爣            | 鍘熺増鍥炬爣             | **thesvg.org 搴曞骇浜屽垱 + 鍘熷垱缁樺埗锛?8 鏋?1024脳1024 SVG锛?* |
-| 娴嬭瘯            | 192 椤?              | 182 椤瑰叏缁匡紙闅忓姛鑳芥紨杩涳級                                  |
+| 维度 | MyClash（原版） | FlClash-Tuned（本项目） |
+| ---- | --------------- | ----------------------- |
+| 目标客户端 | Bettbox | **FlClash** |
+| 图形化适配 | Bettbox 参数桥接 | 移除；适配 FlClash 覆写体系 |
+| 规则集来源 | appshubcc/bett-rules | **MetaCubeX meta-rules-dat**（FlClash 官方同源） |
+| 端口/TUN/控制器 | 脚本内写死 | 交由 FlClash App 设置管理，互不冲突 |
+| 图标 | 原版图标 | **「簪花印」全套 40 枚 1024×1024 SVG**（桃粉底白符，来自 [taobai-zanhua](https://github.com/JokerXiaoMo/taobai-zanhua) 姐妹项目） |
+| 测试 | 192 项 | 182 项全绿（随功能演进） |
 
-## 鐗硅壊鍔熻兘
+## 特色功能
 
-- 馃З **22 涓垎娴佺瓥鐣ョ粍**锛欰I銆乊ouTube銆丟oogle銆乀elegram銆丼team銆丯etflix銆丼potify銆乀ikTok銆丮eta銆丩ine銆丮icrosoft銆丄pple銆丒mby銆丳ikPak銆丳ayPal銆丳atreon銆丒Hentai銆丆rypto銆丗CM銆丄dBlock 绛夛紝鍙€愪釜寮€鍏?
-- 馃審 **鍦板尯鑺傜偣鑷姩鍒嗙粍**锛氳嚜鍔ㄨ瘑鍒娓?鏃ユ湰/缇庡浗/鏂板姞鍧?鍙版咕鐪佸苟鐢熸垚绛栫暐缁勶紙鍚嚜鍔ㄦ祴閫熺粍涓庡€嶇巼缁勶級
-- 馃Ч **鑺傜偣鏅鸿兘鏁寸悊**锛氳嚜鍔ㄨˉ鍥芥棗銆佽鑼冨寲鍛藉悕銆佽繃婊ゆ棤鏁堣妭鐐广€佹寜鍊嶇巼鍒嗙被
-- 馃洝锔?**鏃?DNS 娉勯湶**锛欴NS 涓庤矾鐢辫鍒欓厤濂楄璁★紝鑷姩澶勭悊鏈哄満绉佹湁 DNS 涓庤妭鐐瑰煙鍚?hosts 鏄犲皠
-- 馃 **杞婚噺瑙勫垯闆?*锛歳ule-provider 鎸夐渶鍔犺浇锛?mrs锛夛紝鍏ㄩ儴鏉ヨ嚜 MetaCubeX
-- 馃帹 **鐗硅皟鍥炬爣**锛?8 鏋氱粺涓€ 1024脳1024 鐨?SVG锛屾棤鎹熺缉鏀撅紝鏀寔 FlClash 浠绘剰涓婚
-- 馃獪 **楂樼骇浠ｇ悊**锛氳嚜瀹氫箟鑺傜偣銆侀摼寮忎唬鐞嗐€両Pv4/IPv6 浼樺厛銆佸睆钄藉浗澶?QUIC
+- 🧩 **22 个分流策略组**：AI、YouTube、Google、Telegram、Steam、Netflix、Spotify、TikTok、Meta、Line、Microsoft、Apple、Emby、PikPak、PayPal、Patreon、EHentai、Crypto、FCM、AdBlock 等，可逐个开关
+- 🌏 **地区节点自动分组**：自动识别香港/日本/美国/新加坡/台湾省并生成策略组（含自动测速组与倍率组）
+- 🧹 **节点智能整理**：自动补国旗、规范化命名、过滤无效节点、按倍率分类
+- 🛡️ **无 DNS 泄露**：DNS 与路由规则配套设计，自动处理机场私有 DNS 与节点域名 hosts 映射
+- 🪶 **轻量规则集**：rule-provider 按需加载（.mrs），全部来自 MetaCubeX
+- 🎨 **簪花印图标**：40 枚统一 1024×1024 的 SVG，桃粉底白符，FlClash 任意主题下都清晰
+- 🪜 **高级代理**：自定义节点、链式代理、IPv4/IPv6 优先、屏蔽国外 QUIC
 
-## 蹇€熷紑濮嬶紙瑕嗗啓鑴氭湰锛?
+## 快速开始（覆写脚本）
 
-> 鍓嶆彁锛欶lClash 宸插鍏ユ満鍦鸿闃呫€傝剼鏈粎鐢ㄤ簬瑕嗗啓鏈哄満閰嶇疆锛岃鍕跨敤浜庤鍐欒嚜琛岀紪鍐欑殑瀹屾暣閰嶇疆銆?
+> 前提：FlClash 已导入机场订阅。脚本仅用于覆写机场配置，请勿用于覆写自行编写的完整配置。
 
-1. 鎵撳紑 FlClash 鈫?**閰嶇疆** 鈫?鐐瑰嚮璁㈤槄 鈫?**缂栬緫** 鈫?**瑕嗗啓** 鈫?娣诲姞 **鑴氭湰** 绫诲瀷
-2. 绮樿创瀵瑰簲閾炬帴锛堜簩閫変竴锛夛細
+1. 打开 FlClash → **配置** → 点击订阅 → **编辑** → **覆写** → 添加 **脚本** 类型
+2. 粘贴对应链接（二选一）：
 
-| 鐗堟湰                      | 閾炬帴                                                                                           |
-| ------------------------- | ---------------------------------------------------------------------------------------------- |
-| **鍏ㄩ噺鐗?*锛?2 涓垎娴佺粍锛?| `https://raw.githubusercontent.com/JokerXiaoMo/FlClash-Tuned/main/Script/flclashScript.js`     |
-| **绮剧畝鐗?*锛堝父鐢ㄥ垎娴佺粍锛? | `https://raw.githubusercontent.com/JokerXiaoMo/FlClash-Tuned/main/Script/flclashScriptLite.js` |
+| 版本 | 链接 |
+| ---- | ---- |
+| **全量版**（22 个分流组） | `https://raw.githubusercontent.com/JokerXiaoMo/FlClash-Tuned/main/Script/flclashScript.js` |
+| **精简版**（常用分流组） | `https://raw.githubusercontent.com/JokerXiaoMo/FlClash-Tuned/main/Script/flclashScriptLite.js` |
 
-3. **鍏抽棴 FlClash 鐨勩€孌NS 瑕嗗啓銆嶅紑鍏?*锛堣缃?鈫?DNS 瑕嗗啓 鍏筹級锛岀‘淇濊剼鏈殑鏃犳硠闇?DNS 閫昏緫鐢熸晥
-4. 淇濆瓨鍚庡洖鍒伴椤碉紝閲嶆柊杩炴帴鍗冲彲鐪嬪埌鍒嗙粍涓庡浘鏍?
+3. **关闭 FlClash 的「DNS 覆写」开关**（设置 → DNS 覆写 关），确保脚本的无泄露 DNS 逻辑生效
+4. 保存后回到首页，重新连接即可看到分组与图标
 
-> 馃挕 涔熷彲鐩存帴澶嶅埗鑴氭湰鍏ㄦ枃绮樿创鍒拌鍐欒剼鏈紪杈戝櫒涓€?
+> 💡 也可直接复制脚本全文粘贴到覆写脚本编辑器中。
 
-## 闈欐€侀厤缃紙鍙€夛級
+## 静态配置（可选）
 
-鑻ヤ笉鎯崇敤瑕嗗啓鑴氭湰锛屽彲鐩存帴瀵煎叆闈欐€侀厤缃紙娉ㄦ剰闈欐€佺増鏃犳硶鍔ㄦ€佽瘑鍒湴鍖鸿妭鐐癸級锛?
+若不想用覆写脚本，可直接导入静态配置（注意静态版无法动态识别地区节点）：
 
-| 鐗堟湰   | 閾炬帴                                                                                             |
-| ------ | ------------------------------------------------------------------------------------------------ |
-| 鍏ㄩ噺鐗?| `https://raw.githubusercontent.com/JokerXiaoMo/FlClash-Tuned/main/Config/flclashConfig.yaml`     |
-| 绮剧畝鐗?| `https://raw.githubusercontent.com/JokerXiaoMo/FlClash-Tuned/main/Config/flclashConfigLite.yaml` |
+| 版本 | 链接 |
+| ---- | ---- |
+| 全量版 | `https://raw.githubusercontent.com/JokerXiaoMo/FlClash-Tuned/main/Config/flclashConfig.yaml` |
+| 精简版 | `https://raw.githubusercontent.com/JokerXiaoMo/FlClash-Tuned/main/Config/flclashConfigLite.yaml` |
 
-FlClash 瀵煎叆鏂瑰紡锛氶椤?鈫?閰嶇疆 鈫?娣诲姞閰嶇疆 鈫?浠?URL 瀵煎叆锛堜篃鏀寔 `clashmeta://` / `flclash://` 閾炬帴鍞よ捣锛夈€?
+FlClash 导入方式：首页 → 配置 → 添加配置 → 从 URL 导入（也支持 `clashmeta://` / `flclash://` 链接唤起）。
 
-## 鍙厤缃€夐」
+## 可配置选项
 
-鑴氭湰椤堕儴 `ruleOptionsEnable` 鍗冲叏閮ㄥ紑鍏筹細22 涓垎娴佺粍寮€鍏筹紝浠ュ強锛?
+脚本顶部 `ruleOptionsEnable` 即全部开关：22 个分流组开关，以及：
 
-| 閫夐」               | 璇存槑                         | 榛樿 |
-| ------------------ | ---------------------------- | ---- |
-| 鏋佺畝妯″紡           | 鍙繚鐣欍€岄粯璁や唬鐞嗐€?          | 鍏?  |
-| 鐢熸垚鍦板尯鑷姩閫夋嫨缁?| 姣忓湴鍖洪檮甯?URLTest 鑷姩缁?   | 寮€   |
-| 闅愯棌鍦板尯鎵嬪姩閫夋嫨缁?| 闅愯棌鎵嬪姩閫夋嫨鍦板尯缁?          | 鍏?  |
-| 鐢熸垚鍊嶇巼缁?        | 浣?楂樺€嶇巼鑺傜偣鍒嗙粍            | 寮€   |
-| 鍒嗘祦缁勬坊鍔犳墍鏈夎妭鐐?| 鍒嗘祦缁勫垪鍑哄叏閮ㄨ妭鐐?          | 鍏?  |
-| 杩囨护浣?楂樺€嶇巼鑺傜偣  | 鍓旈櫎瀵瑰簲鍊嶇巼鑺傜偣             | 鍏?  |
-| 杩囨护闈炲湴鍖鸿妭鐐?    | 鍓旈櫎鍏憡/瀹樼綉绫昏妭鐐?         | 寮€   |
-| 灞忚斀鍥藉QUIC       | 闃绘柇澧冨 QUIC 娴侀噺           | 寮€   |
-| 浠ｇ悊IPV4/IPV6浼樺厛  | 璁㈤槄鑺傜偣缁熶竴 IP 鐗堟湰鍋忓ソ     | 鍏?  |
-| 閾惧紡浠ｇ悊           | 鑷畾涔夎妭鐐圭粡銆岄摼寮忎腑杞€嶈惤鍦?| 鍏?  |
+| 选项 | 说明 | 默认 |
+| ---- | ---- | ---- |
+| 极简模式 | 只保留「默认代理」 | 关 |
+| 生成地区自动选择组 | 每地区附带 URLTest 自动组 | 开 |
+| 隐藏地区手动选择组 | 隐藏手动选择地区组 | 关 |
+| 生成倍率组 | 低/高倍率节点分组 | 开 |
+| 分流组添加所有节点 | 分流组列出全部节点 | 关 |
+| 过滤低/高倍率节点 | 剔除对应倍率节点 | 关 |
+| 过滤非地区节点 | 剔除公告/官网类节点 | 开 |
+| 屏蔽国外QUIC | 阻断境外 QUIC 流量 | 开 |
+| 代理IPV4/IPV6优先 | 订阅节点统一 IP 版本偏好 | 关 |
+| 链式代理 | 自定义节点经「链式中转」落地 | 关 |
 
-## 鍥炬爣
+## 图标
 
-38 鏋?SVG锛堢瓥鐣ョ粍 + 鍦板尯 + 宸ュ叿绫伙級锛岃鑼冨寲鑷?1024脳1024 鐢诲竷锛宩sdelivr 鍏ㄥ眬 CDN 鐩撮摼锛?
+40 枚「簪花印」SVG（策略组 + 地区 + 工具类 + 2 枚备用），桃粉底白符，统一规范化至 1024×1024 画布，jsdelivr 全局 CDN 直链：
 
 ```text
 https://fastly.jsdelivr.net/gh/JokerXiaoMo/FlClash-Tuned@main/Icons/svg/<Name>.svg
 ```
 
-- 瑕嗗啓鑴氭湰鑷姩涓烘墍鏈夌瓥鐣ョ粍閰嶇疆鍥炬爣锛孎lClash 涓洿鎺ュ彲瑙?
-- 濡傞渶鑷畾涔夛細FlClash 鈫?閰嶇疆 鈫?缂栬緫 鈫?**瑕嗗啓 鈫?鑷畾涔?鈫?鍥炬爣**锛岀矘璐翠笂闈㈢殑閾炬帴鍗冲彲
-- 鏉ユ簮涓庤鍙瘉瑙?[Icons/README.md](Icons/README.md)
+- 覆写脚本自动为所有策略组配置图标，FlClash 中直接可见
+- 如需自定义：FlClash → 配置 → 编辑 → **覆写 → 自定义 → 图标**，粘贴上面的链接即可
+- 图标体系与 [taobai-zanhua](https://github.com/JokerXiaoMo/taobai-zanhua) 同源；来源与许可证见 [Icons/README.md](Icons/README.md)
 
-## 鐩綍缁撴瀯
+## 目录结构
 
 ```text
 FlClash-Tuned/
-鈹溾攢鈹€ Script/                  # mihomo 瑕嗗啓鑴氭湰锛堝叏閲?绮剧畝锛?
-鈹溾攢鈹€ Config/                  # 闈欐€?mihomo 閰嶇疆锛堝叏閲?绮剧畝锛?
-鈹溾攢鈹€ Icons/svg/               # 38 鏋?1024脳1024 鐗硅皟 SVG 鍥炬爣
-鈹溾攢鈹€ Rules/                   # 涓嬭浇绫诲簲鐢ㄧ洿杩炶鍒欐竻鍗?
-鈹溾攢鈹€ Test/                    # 鑷姩鍖栨祴璇曪紙182 椤癸級
-鈹溾攢鈹€ .github/workflows/       # CI锛氭牸寮忓寲 + 娴嬭瘯
-鈹斺攢鈹€ AGENT.md                 # 缁存姢鑰呰绾?
+├── Script/                  # mihomo 覆写脚本（全量/精简）
+├── Config/                  # 静态 mihomo 配置（全量/精简）
+├── Icons/svg/               # 40 枚 1024×1024 簪花印图标
+├── Rules/                   # 下载类应用直连规则清单
+├── Test/                    # 自动化测试（182 项）
+├── .github/workflows/       # CI：自动化测试
+└── AGENT.md                 # 维护者规约
 ```
 
-## 娴嬭瘯
+## 测试
 
 ```bash
-node Test/run-tests.js        # 鍏ㄩ儴娴嬭瘯锛堟帹鑽?Node 鈮?16锛?
-npm --prefix Test install     # 鍙€夛細鍚敤 ES2020 / QuickJS 鍏煎鎬ф鏌ュ悗閲嶈窇
+node Test/run-tests.js        # 全部测试（推荐 Node ≥ 16）
+npm --prefix Test install     # 可选：启用 ES2020 / QuickJS 兼容性检查后重跑
 ```
 
-## 甯歌闂
+## 常见问题
 
-**Q锛氳妭鐐规樉绀恒€屽唴楝笺€?瑙ｆ瀽鍒板瀮鍦剧嚎璺紵**
-鏈哄満鐢ㄤ簡绉佹湁 DNS 鎴?hosts 鏄犲皠鑺傜偣鍩熷悕銆傛湰鑴氭湰宸插唴缃嚜鍔ㄥ鐞嗭紝閬囧埌鏃犳硶瑙ｆ瀽鐨勮妭鐐瑰彲鎻?Issue 闄勪笂锛堣劚鏁忓悗鐨勶級鑺傜偣鍩熷悕銆?
+**Q：节点显示「内鬼」/解析到垃圾线路？**
+机场用了私有 DNS 或 hosts 映射节点域名。本脚本已内置自动处理，遇到无法解析的节点可提 Issue 附上（脱敏后的）节点域名。
 
-**Q锛氫负浠€涔堝繀椤诲叧闂?FlClash 鐨?DNS 瑕嗗啓锛?*
-鑴氭湰鐢熸垚鏁村鏃犳硠闇?DNS 閰嶇疆锛汧lClash 鐨?DNS 瑕嗗啓寮€鍚椂浼氱敤 App 琛ヤ竵瑕嗙洊瀹冿紝涓よ€呭彔鍔犱細浜х敓鎰忔兂涓嶅埌鐨勮涓恒€?
+**Q：为什么必须关闭 FlClash 的 DNS 覆写？**
+脚本生成整套无泄露 DNS 配置；FlClash 的 DNS 覆写开启时会用 App 补丁覆盖它，两者叠加会产生意想不到的行为。
 
-**Q锛歍UN 妯″紡鐢ㄤ笉鐢ㄥ紑锛?*
-闅忔剰銆俆UN 瀹屽叏鐢?FlClash 鎺у埗锛屾湰濂椾欢涓嶅共棰勩€俉indows 涓嬭В鍐?DNS 娉勯湶寤鸿寮€鍚?TUN 鐨勪弗鏍艰矾鐢便€?
+**Q：TUN 模式用不用开？**
+随意。TUN 完全由 FlClash 控制，本套件不干预。Windows 下解决 DNS 泄露建议开启 TUN 的严格路由。
 
-**Q锛氬浘鏍囧湪 FlClash 閲屼笉鏄剧ず锛?*
-棣栨鍔犺浇闇€鑱旂綉鎷夊彇 jsdelivr锛涚‘璁ょ郴缁熶唬鐞嗘甯稿悗閲嶅惎 FlClash 閲嶈瘯銆?
+**Q：图标在 FlClash 里不显示？**
+首次加载需联网拉取 jsdelivr；确认系统代理正常后重启 FlClash 重试。
 
-## 鑷磋阿涓庤鍙?
+## 致谢与许可
 
-- [AIsouler/MyClash](https://github.com/AIsouler/MyClash)锛圡IT锛夆€斺€旂壒璋冩€濊矾涓庤鍐欒剼鏈摑鏈?
-- [chen08209/FlClash](https://github.com/chen08209/FlClash)锛圙PL-3.0锛夆€斺€旈€傞厤鐩爣锛堟湰椤圭洰涓嶅惈 FlClash 浠ｇ爜锛屼粎涓哄叾鎻愪緵閰嶇疆/鑴氭湰/鍥炬爣锛?
-- [thesvg.org](https://thesvg.org/)鈥斺€斿浘鏍囧簳搴э紙CC0-1.0 / MIT / Apache-2.0锛?
-- [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat)鈥斺€旇鍒欓泦
+- [AIsouler/MyClash](https://github.com/AIsouler/MyClash)（MIT）——特调思路与覆写脚本蓝本
+- [JokerXiaoMo/taobai-zanhua](https://github.com/JokerXiaoMo/taobai-zanhua)（MIT）——「簪花印」图标体系（姐妹项目）
+- [chen08209/FlClash](https://github.com/chen08209/FlClash)（GPL-3.0）——适配目标（本项目不含 FlClash 代码，仅为其提供配置/脚本/图标）
+- [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat)——规则集
 
-鏈」鐩互 [MIT](LICENSE) 鍗忚寮€婧愩€備娇鐢ㄥ嵆浠ｈ〃浣犲悓鎰忛伒瀹堟墍鍦ㄥ湴娉曞緥娉曡锛屾湰椤圭洰浠呯敤浜庡涔犱笌鎶€鏈爺绌躲€?
+本项目以 [MIT](LICENSE) 协议开源。使用即代表你同意遵守所在地法律法规，本项目仅用于学习与技术研究。
 
 ---
 
-<div align="center">鐏垫劅婧愯嚜 MyClash 路 涓?FlClash 鑰岃皟 路 FlClash-Tuned</div>
+<div align="center">灵感源自 MyClash · 图标源自桃白簪花 · 为 FlClash 而调 · FlClash-Tuned</div>

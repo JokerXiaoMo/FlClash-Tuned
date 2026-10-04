@@ -1,7 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
-  <g>
-    <path d="M290 330 a110 110 0 0 1 105 -95 a150 150 0 0 1 290 30 a100 100 0 0 1 60 90 a105 105 0 0 1 -105 105 H300 a115 115 0 0 1 -10 -230 Z" fill="#3B82F6"/>
-    <path d="M512 560 V840" stroke="#FFFFFF" stroke-width="80" stroke-linecap="round"/>
-    <path d="M372 700 L512 840 L652 700" fill="none" stroke="#FFFFFF" stroke-width="80" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(0.00 0.00) scale(21.3333)">
+<defs>
+    <linearGradient id="zbzh" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0A8C0"/>
+      <stop offset="1" stop-color="#E58BA8"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="46" height="46" rx="13" fill="url(#zbzh)"/>
+  <g fill="#FFFFFF">
+    <circle cx="17" cy="26.5" r="6.6"/>
+    <circle cx="24.5" cy="22.5" r="8.2"/>
+    <circle cx="31.5" cy="26.5" r="6.6"/>
+    <rect x="17" y="26.5" width="14.5" height="6.6"/>
+  </g>
+  <g fill="none" stroke="url(#zbzh)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24.5 33.2V23.6"/>
+    <path d="M20.6 27.5L24.5 23.6L28.4 27.5"/>
+  </g>
   </g>
 </svg>

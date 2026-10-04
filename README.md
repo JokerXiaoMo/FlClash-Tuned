@@ -129,7 +129,7 @@ npm --prefix Test install     # 可选：启用 ES2020 / QuickJS 兼容性检查
 ## 致谢与许可
 
 - [AIsouler/MyClash](https://github.com/AIsouler/MyClash)（MIT）——特调思路与覆写脚本蓝本
-- [JokerXiaoMo/taobai-zanhua](https://github.com/JokerXiaoMo/taobai-zanhua)（MIT）——「簪花印」图标体系（姐妹项目）
+- [JokerXiaoMo/taobai-zanhua](https://github.com/JokerXiaoMo/taobai-zanhua)（MIT）——「簪花印」图标体系（兄弟项目）
 - [chen08209/FlClash](https://github.com/chen08209/FlClash)（GPL-3.0）——适配目标（本项目不含 FlClash 代码，仅为其提供配置/脚本/图标）
 - [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat)——规则集
 

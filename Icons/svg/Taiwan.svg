@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <g>
+    <rect x="0" y="170.67" width="1024" height="682.67" fill="#FE0000"/>
+    <rect x="0" y="170.67" width="512" height="341.33" fill="#000095"/>
+    <polygon points="256,256 256.0,106.0 294.8,111.1" fill="#FFFFFF"/>
+    <polygon points="256,256 331.0,126.1 362.1,149.9" fill="#FFFFFF"/>
+    <polygon points="256,256 385.9,181.0 400.9,217.2" fill="#FFFFFF"/>
+    <polygon points="256,256 406.0,256.0 400.9,294.8" fill="#FFFFFF"/>
+    <polygon points="256,256 385.9,331.0 362.1,362.1" fill="#FFFFFF"/>
+    <polygon points="256,256 331.0,385.9 294.8,400.9" fill="#FFFFFF"/>
+    <polygon points="256,256 256.0,406.0 217.2,400.9" fill="#FFFFFF"/>
+    <polygon points="256,256 181.0,385.9 149.9,362.1" fill="#FFFFFF"/>
+    <polygon points="256,256 126.1,331.0 111.1,294.8" fill="#FFFFFF"/>
+    <polygon points="256,256 106.0,256.0 111.1,217.2" fill="#FFFFFF"/>
+    <polygon points="256,256 126.1,181.0 149.9,149.9" fill="#FFFFFF"/>
+    <polygon points="256,256 181.0,126.1 217.2,111.1" fill="#FFFFFF"/>
+    <circle cx="256" cy="256" r="72" fill="#FFFFFF"/>
+    <circle cx="256" cy="256" r="42" fill="#000095"/>
+  </g>
+</svg>
